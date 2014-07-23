@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="12749430-8513-4387-b816-dfd9e36b2527" solutionId="12749430-8513-4387-b816-dfd9e36b2527" resetWebServer="false" name="JSLocalizeSample" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <projectItems>
+    <projectItemReference itemId="7677e4cf-db3e-4c05-ba62-d2d0549b5213" />
+  </projectItems>
+</package>
