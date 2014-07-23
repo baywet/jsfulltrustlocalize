@@ -28,4 +28,6 @@ Sample.Global.LoadUserInfoFailed = function (sender, args) {
 Sample.Global.LoadResources();
 
 //rest of you methods and objects for your solution...
-alert(Sample.Global.Resources.helloWorld);//caution first letter of the resources key will always be in lowercase : json
+sp$(function () {
+    alert(Sample.Global.Resources.helloWorld); //caution first letter of the resources key will always be in lowercase : json
+});

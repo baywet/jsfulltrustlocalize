@@ -8,9 +8,9 @@ namespace JSLocalizeSample.LAYOUTS.JSSample
     {
         protected override void OnPreRender(EventArgs e)
         {
-            //SPRibbon currentRibbon = SPRibbon.GetCurrent(this.Page);
-            //if (currentRibbon != null)
-            //{
+            SPRibbon currentRibbon = SPRibbon.GetCurrent(this.Page);
+            if (currentRibbon != null)
+            {
                 ScriptLink.RegisterScriptAfterUI(this.Page, "SP.Core.js", false, true);
                 ScriptLink.RegisterScriptAfterUI(this.Page, "CUI.js", false, true);
                 ScriptLink.RegisterScriptAfterUI(this.Page, "core.js", true, false);
@@ -18,9 +18,9 @@ namespace JSLocalizeSample.LAYOUTS.JSSample
                 ScriptLink.RegisterScriptAfterUI(this.Page, "SP.Runtime.js", false, true);
                 ScriptLink.RegisterScriptAfterUI(this.Page, "SP.js", false, true);
 
-                ScriptLink.RegisterScriptAfterUI(this.Page, "JSample/Scripts/jquery.min.js", false, true);
-                ScriptLink.RegisterScriptAfterUI(this.Page, "JSample/Scripts/sample.js", false, true);
-            //}
+                ScriptLink.RegisterScriptAfterUI(this.Page, "JSSample/Scripts/jquery.min.js", false, true);
+                ScriptLink.RegisterScriptAfterUI(this.Page, "JSSample/Scripts/sample.js", false, true);
+            }
             base.OnPreRender(e);
         }
         protected void Page_Load(object sender, EventArgs e)
