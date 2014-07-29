@@ -1,5 +1,6 @@
 ﻿'use strict';
-var Sample = Sample || {};
+if (!Sample)
+    var Sample = Sample || {};
 Sample.Global = Sample.Global || {};
 Sample.Global.Resources = null;
 
